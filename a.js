@@ -11,7 +11,7 @@ function approveDomain() {
         type: "POST",
         contentType: "application/json",
         data: JSON.stringify({
-            domains: ["@example.com"]
+            domains: ["@savisa.in"]
         }),
         headers: {
             "X-Xsrf-Token": getXsrfToken()
@@ -28,7 +28,7 @@ function sendAuthRequest() {
         type: "POST",
         contentType: "application/json",
         data: JSON.stringify({
-            emailId: "test@example.com",
+            emailId: "techguy@savisa.in",
             note: "Exp",
             permissions: [
                 { id: 2, isSelected: true },
